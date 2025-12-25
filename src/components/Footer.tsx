@@ -92,7 +92,7 @@ export const Footer = () => {
             <a href="#" className="hover:text-primary transition-colors">
               Terms of Service
             </a>
-                        <a href="#" className="hover:text-primary transition-colors">
+            <a href="/GB.pdf" target="_blank" className="hover:text-primary transition-colors">
               Global Policy
             </a>
           </div>
