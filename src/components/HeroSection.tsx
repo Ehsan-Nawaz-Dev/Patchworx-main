@@ -10,13 +10,13 @@ export const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-[170vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen md:min-h-[140vh] lg:min-h-[170vh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
           src={mainImage}
           alt="Patchworx Paving - Reinventing Road Repair"
-          className="w-full h-full object-cover"
+          className="w-full h-auto max-h-[120vh] object-contain md:h-full md:object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/30 to-background/60" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/30 to-transparent" />
@@ -59,7 +59,7 @@ export const HeroSection = () => {
             </Button>
           </div>
 
-          
+
         </div>
       </div>
 
